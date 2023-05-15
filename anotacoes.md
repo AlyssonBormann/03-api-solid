@@ -79,4 +79,6 @@ npx prisma migrate deploy
 # Comando para abrir o prisma stuido
 npx prisma studio
 
-##
+# Biblioteca para fazer hash de senhas
+npm i bcryptjs
+npm i -D @types/bcryptjs
