@@ -82,3 +82,7 @@ npx prisma studio
 # Biblioteca para fazer hash de senhas
 npm i bcryptjs
 npm i -D @types/bcryptjs
+
+# Biblioteca para testes e plugin para o vitest entende os paths que foi configurado no tsconfig.json
+- crie um arquivo chamdo vite.config.ts
+npm i vitest vite-tsconfig-paths -D
