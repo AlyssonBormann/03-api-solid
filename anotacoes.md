@@ -86,3 +86,12 @@ npm i -D @types/bcryptjs
 # Biblioteca para testes e plugin para o vitest entende os paths que foi configurado no tsconfig.json
 - crie um arquivo chamdo vite.config.ts
 npm i vitest vite-tsconfig-paths -D
+
+# O Vitest é uma ferramenta de testes para Node.js que oferece uma interface de usuário (UI) para monitorar o status dos testes
+npm i -D @vitest/ui
+
+## CLEANC CODE
+- variaveis que retornam Bolean é com começar com => "is" "has" "does" ficam melhores verbalmente
+
+## Quando se deparar com a varial "SUT"
+- É um pattern que tem o seguinte significao: System Under Test
