@@ -95,3 +95,6 @@ npm i -D @vitest/ui
 
 ## Quando se deparar com a varial "SUT"
 - É um pattern que tem o seguinte significao: System Under Test
+
+# pacote para datas
+npm i dayjs
