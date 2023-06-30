@@ -98,3 +98,7 @@ npm i -D @vitest/ui
 
 # pacote para datas
 npm i dayjs
+
+
+# pacote JWT para autenticacao
+npm i @fastify/jwt
