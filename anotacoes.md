@@ -102,3 +102,22 @@ npm i dayjs
 
 # pacote JWT para autenticacao
 npm i @fastify/jwt
+
+## Teste end-to-end (e2e)
+- Criar uma pasta dentro de prisma chamado 'vitest-environment-prisma'
+- Logo depois 'npm init -y'
+- Depois de fazer a configuracao dentro dessa pasta e no arquivo vit.config.ts
+- Vai no 'cd prisma/vitest-environment-prisma' e digite no termianl 'npm link'
+- Depois volta na aplicacao glocal cd .., cd ..
+- E Digite no terminal 'npm link vitest-environment-prisma'
+# PACOTE para conseguir executar script dentro do package.json nao importanto o sistema operacional
+npm install -D npm-run-all
+
+## Dentro do package.json nos scripts, tudo que comeca com 'pre' ou 'post'
+## e execultado antes de rodar o script e depois que rodar o script
+## exemplo aqui e quando vai rodar o npm run test:e2e
+## tem um script chamado pretest:e2e ele vai roda primeiro que o npm run test:e2e
+## PROJETO-03, modulo Controllers & Testes 2e2 aula Organizando npm scripts
+
+# pacote supertest
+npm i supertest -D @types/supertest -D
